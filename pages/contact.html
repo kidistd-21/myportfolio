@@ -12,43 +12,68 @@
     </header>
     <main>
         <div>
-         <h1>Contact Information</h1>   
-    <nav>
-    <a href="kidistdebessa21@gmail.com">My Email Account</a><br>
-    <a href="https://github.com/kidistd-21/my-first-project">My githab</a>
+         <h1>Contact Information</h1>  
+         <ul style="list-style: circle;">
+             <nav>
+   <li><a href="kidistdebessa21@gmail.com " ,target="_blank" , title="my email address">My Email Account</a></li> 
+   <li><a href="https://github.com/kidistd-21/my-first-project" , target="_blank" , title="my githab account">My githab</a></li> 
     </nav>
+</ul> 
 </div>
+
 <p style="white-space: pre;">
 
 
-    <form >
-    <label>Name</lable>
-     <input type="text" name="Your Name" placeholder="Ensert your name">
-<br>
-<br>
-     <lable>Age</label> 
-    <input type="number" name="Age" placeholder="Ensert your age">
-   <br>
-   <br>
-    <label>Email</label>
-     <input type="email" name="email" placeholder="Ensert your email address">
-<br>
-<br>
-     <lable>Gender</label>
-     <input type="radio" name="gender" value="Female"><span>Female</span><input type="radio" name="gender" value="Male"><span>Male</span>
-     </form>
-     <br>
-     <br>
-     
-<form >
+<h2>Let's get in touch. Ensert you Information.</h2>
+   <form>
+  <!-- Name -->
+  <label for="name">Name :</label>
+  <input type="text" id="name" name="name" placeholder="Enter your name">
+
+  <br><br>
+
+  <!-- Age -->
+  <label for="age">Age :</label>
+  <input type="number" id="age" name="age" placeholder="Enter your age" required>
+
+  <br><br>
+
+  <!-- Gender -->
+  <label>Gender :</label>
+  <input type="radio" id="female" name="gender" value="Female">
+  <label for="female">Female</label>
+
+  <input type="radio" id="male" name="gender" value="Male">
+  <label for="male">Male</label>
+
+  <br><br>
+
+  <!-- Email -->
+  <label for="email">Email :</label>
+  <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+
+<br><br>
+
+
     <label>Which one is hardest from your experience?</label>
  <br>  <span>C++</span> <input type="checkbox" name="hardestLang" value="c++">
   <span>Java</span>  <input type="checkbox" name="hardestLang" value="Java">
   <span>Front End</span>  <input type="checkbox" name="hardestLang" value="Front End">
+  <br>
+
+
+<br>
+
+<form >
+    <!-- Satisfaction level-->
+  <label for="satisfaction">How much are you satisfied by my contact Information:</label>
+  <input type="range" id="satisfaction" name="satisfaction" min="0" max="5" value="2">
+<br><br>
+  <!-- Submit and Reset buttons -->
+  <input type="submit" value="Submit">  
+  <input type="reset" value="Reset">
 </form>
 
-
-<form ></form>
     </p>
     </main>
     <footer>
